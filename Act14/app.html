@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>App 2 en 1</title>
+</head>
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <form action="./APP21.php" method="POST">
+                        <fieldset>
+                            <legend><h4>Reloj mundial</h4></legend>
+                            <label for="hora">Ingrese la hora (CDMX)
+                                <input type="time" name="hora" required>
+                            </label><br>
+                            <br>Elige los países que quieres consultar<br><br>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Nueva York</td>
+                                        <td><input type="checkbox" name="NY"></td>
+                                        <td>Sao Paulo</td>
+                                        <td><input type="checkbox" name="paulo"></td>
+                                    
+                                    </tr>
+                                    <tr>
+                                        <td>Madrid</td>
+                                        <td><input type="checkbox" name="madrid"></td>
+                                        
+                                        <td>Paris</td>
+                                        <td><input type="checkbox" name="paris"></td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>Roma</td>
+                                        <td><input type="checkbox" name="roma"></td>
+                                        
+                                        <td>Atenas</td>
+                                        <td><input type="checkbox" name="atenas"></td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>Beijin</td>
+                                        <td><input type="checkbox" name="beijing"></td>
+                                
+                                        <td>Tokio</td>
+                                        <td><input type="checkbox" name="tokio"></td>
+                                    
+                                    </tr>
+                                    <tr><td><br><br>
+                                        <input type="submit" value="Consultar">
+                                    </td></tr>
+                                </tbody>
+                            </table>
+                            
+
+                        </fieldset>
+                    </form>
+                </td>
+                <td>
+                    <form action="./APP21.php" method="POST">
+                        <fieldset>
+                            <legend><h4>Calcula Cumpleaños</h4></legend>
+                            <label for="nacimiento">Ingrese su fecha de nacimiento
+                                <input type="date" name="nacimiento" required>
+                            </label><br>
+                            <br>¿Qué quieres consultar?<br><br>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Días para próximo cumpleaños</td>
+                                        <td><input type="checkbox" name="days"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Horas para próximo cumpleaños</td>
+                                        <td><input type="checkbox" name="hours"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Minutos para próximo cumpleaños</td>
+                                        <td><input type="checkbox" name="minutes"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>¿Sera fin de semana?</td>
+                                        <td><input type="checkbox" name="weekend"></td>
+                                    </tr>
+                                    <tr><td><br><br>
+                                        <button type="submit" >Calcular</button>
+                                    </td></tr>
+                                </tbody>
+                            </table>
+                        </fieldset>
+                    </form>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
