@@ -82,7 +82,7 @@
                 if($cuentaima%2 ==0)
                 {
                     echo "<tr>";
-                    echo "<td><img src='./statics/".$value."' width='200'>";
+                    echo "<td><img src='./statics/".$value."' width='400'>";
                     echo "<br><ul>";
                     echo "<li><strong>NOMBRE DE LA PINTURA:</strong>". strtoupper($arrayname[0]);
                     echo "<li><strong>NOMBRE DEL PINTOR:</strong>". strtoupper($arrayname[1]);
